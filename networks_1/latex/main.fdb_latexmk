@@ -1,15 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1611252273 "main.aux" "main.bbl" "main" 1611252543
+["bibtex main"] 1611253449 "main.aux" "main.bbl" "main" 1611253789
   "/usr/share/texmf-dist/bibtex/bst/base/ieeetr.bst" 1607249373 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
   "citations.bib" 1611240586 560 61172365d5346b07745b113ac0614be3 ""
-  "main.aux" 1611252468 1676 4712cb5a9663f61fef5db3d04fbf971b "pdflatex"
+  "main.aux" 1611253723 2183 606ac40bd68c0a047855e32ca3ca1d58 "pdflatex"
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1611252543 "main.tex" "main.pdf" "main" 1611252543
+  "main.blg"
+["pdflatex"] 1611253789 "main.tex" "main.pdf" "main" 1611253789
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1607249373 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1607249373 3524 cb3e574dea2d1052e39280babc910dc8 ""
-  "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1607249373 3584 2d666ecf6d466d8b007246bc2f94d9da ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1607249373 3584 13049b61b922a28b158a38aeff75ee9b ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm" 1607249373 3584 291a5713401683441e0a8c8f4417b17b ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm" 1607249373 3584 cf973739aac7ab6247f9150296af7954 ""
@@ -43,7 +42,6 @@
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1607249373 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1607249373 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1607249373 32716 08e384dc442464e7285e891af9f45947 ""
-  "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb" 1607249373 145408 43d44302ca7d82d487f511f83e309505 ""
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb" 1607249373 135942 859a90cad7494a1e79c94baf546d7de5 ""
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb" 1607249373 162624 9dcc92cd3b1dfe2ecc80e6da7f2eb6bd ""
   "/usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb" 1607249373 154599 ded6d7c21788a8930eadc7fef7518942 ""
@@ -91,14 +89,17 @@
   "LesMis_degree_dist.png" 1611152500 25159 e12fbf5819d93746294486037f44e0dc ""
   "LesMis_ego_vis.png" 1611151592 252438 168b1d546a67c74961dde02e1035f959 ""
   "bernoulli_var.png" 1611246213 92125 59b31034b01497926b7fc7e16dc2f18c ""
-  "main.aux" 1611252468 1676 4712cb5a9663f61fef5db3d04fbf971b "pdflatex"
-  "main.bbl" 1611252273 367 2eccf40706d6efea2f799c5b7d47483d "bibtex main"
-  "main.tex" 1611252542 5479 281996c935474b0b73ca26b1cfe13c1a ""
+  "main.aux" 1611253723 2183 606ac40bd68c0a047855e32ca3ca1d58 "pdflatex"
+  "main.bbl" 1611253449 367 2eccf40706d6efea2f799c5b7d47483d "bibtex main"
+  "main.tex" 1611253788 6049 bfbf53f0831742c9ad68597a98d668aa ""
   "power_deg_dist_log.png" 1611243173 41755 2a39f280b16cce2307a462884f64ae08 ""
   "power_deg_dist_loglog.png" 1611243214 40921 aafb8ee009d23aae72ca56cb954a2eac ""
   "power_degree_dist.png" 1611239229 75142 0713defeee3c27ca7f55ecaffab6d37c ""
   "power_vis.png" 1611243965 546489 c970f2613a42b5e78f1303ff0455bd51 ""
+  "random_walk10000.png" 1611252622 107831 c532a56ea84595162825254821c3b356 ""
+  "random_walk15000.png" 1611253234 110672 c3e12b2faedefe869d94955a78722331 ""
+  "random_walk5000.png" 1611252701 119676 c32d05911cc6e87e2dbcc406df97d3f2 ""
   (generated)
-  "main.log"
-  "main.aux"
   "main.pdf"
+  "main.aux"
+  "main.log"
