@@ -11,13 +11,14 @@ def iterate(sample):
 
 def get_data(sample):
     (vals, freq) = np.unique(sample, return_counts=True)
-    freq = list(map(lambda x: x/SAMPLE_COUNT, freq))
+    sumf = reduce(lambda x, y: x + y, freq)
+    freq = list(map(lambda x: x/sumf, freq))
     return (vals, freq)
 
 #start with 1000 values
 sample = [0 for i in range(SAMPLE_COUNT)]
 
-max_iter = 1000
+max_iter = 10000
 
 for i in range(max_iter):
     #iterate the random walk

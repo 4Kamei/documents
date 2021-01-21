@@ -92,12 +92,19 @@
             \label{fig:bern}
         \end{figure}
     \item
-        I simulated 10000 random walkers and plotted the resulting position distribution for 1000, 2000 and 3000 samples, overlayed with the gaussian profile \[
+        I simulated 10000 random walkers and plotted the resulting position distribution for 5000, 10000 and 15000 samples. From theory (the notes), we know the data should follow the gaussian profile \[
             p(x;t) = \frac{1}{\sqrt{2 \pi D t}} \exp{\frac{-x^2}{4 D t} 
         .\] With D given by,
         \[
-            D = \frac{\langle x^2 \rangle}{2}
-        .\] The distribution given in the sheet has mean=0
+            D = \frac{\langle x^2 \rangle}{2} = \frac{1}{2}
+        .\] With this, the data didn't fit, as the gaussian is not normalized properly. The correct normalisation should be, for continuous data $\frac{1}{\sqrt{4\pi D t}}$. (Is this a problem with the notes?) With this normalisation, our gaussian is at half of the amplitude of the data, and that's because at any given iteration, we can only access either the even-, or odd-numbered positions. Thus, we are overcompensating and need to multiply by two. Thus, for our data, the correct normalisation is 
+        \[
+            p(x;t) = \frac{1}{\sqrt{\pi D t}} \exp{\frac{-x^2}{4 D t}} 
+        .\]   
+        Figs. \ref{fig:rw5000}, \ref{fig:rw1000}, \ref{fig:rw15000} show the data fitting to the modified gaussian correcly. 
+        \begin{figure}
+            
+        \end{figure}
 \end{enumerate}
 
 \section{Connectedness}
