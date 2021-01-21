@@ -4,7 +4,7 @@ library(ggplot2)
 
 data = read.csv("random_walk.csv")
 
-iter = 10000
+iter = 15000
 
 var = 1/2
 
