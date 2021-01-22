@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.19)  22 JAN 2021 12:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.19)  22 JAN 2021 13:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -254,17 +254,6 @@ Overfull \hbox (23.08182pt too wide) in paragraph at lines 97--97
 []\T1/cmr/m/n/10 I simulated 10000 random walkers and plotted the resulting position distribution
  []
 
-./main.tex:99: Missing } inserted.
-<inserted text> 
-                }
-l.99         .\]
-                 With D given by,
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 [7 <./bernoulli_var.png>]
 <./random_walk5000.png, id=53, 505.6491pt x 505.6491pt>
 File: ./random_walk5000.png Graphic file (type png)
@@ -296,32 +285,26 @@ Overfull \hbox (4.94846pt too wide) in paragraph at lines 146--147
 \T1/cmr/m/n/10 matrices (and thus, more weakly, symmetric matrices) have real eigenvalues.
  []
 
-
-./main.tex:153: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 \end{enumerate}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-(./main.bbl) [13] (./main.aux) ) 
+[13]
+<./small_clustering.png, id=82, 687.2877pt x 691.6239pt>
+File: ./small_clustering.png Graphic file (type png)
+<use ./small_clustering.png>
+Package pdftex.def Info: ./small_clustering.png  used on input line 178.
+(pdftex.def)             Requested size: 172.5pt x 173.58096pt.
+ [14 <./small_clustering.png>] (./main.bbl) [15] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 5509 strings out of 479383
- 72886 string characters out of 5875830
- 553250 words of memory out of 5000000
- 22556 multiletter control sequences out of 15000+600000
+ 5516 strings out of 479383
+ 73057 string characters out of 5875830
+ 556260 words of memory out of 5000000
+ 22562 multiletter control sequences out of 15000+600000
  416596 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,8n,72p,697b,1258s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on main.pdf (13 pages, 1444281 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on main.pdf (15 pages, 1511028 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 141 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

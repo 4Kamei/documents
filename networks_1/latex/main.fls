@@ -352,6 +352,11 @@ INPUT ./eig_dist_big.png
 INPUT ./eig_dist_big.png
 INPUT ./eig_dist_big.png
 INPUT ./eig_dist_big.png
+INPUT ./small_clustering.png
+INPUT ./small_clustering.png
+INPUT ./small_clustering.png
+INPUT ./small_clustering.png
+INPUT ./small_clustering.png
 INPUT ./main.bbl
 INPUT main.bbl
 INPUT ./main.bbl
@@ -359,6 +364,7 @@ INPUT main.bbl
 INPUT /usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecti1000.tfm
 INPUT main.aux
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
+INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb

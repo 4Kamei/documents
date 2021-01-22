@@ -95,7 +95,7 @@
         \end{figure}
     \item
         I simulated 10000 random walkers and plotted the resulting position distribution for 5000, 10000 and 15000 samples. From theory (the notes), we know the data should follow the gaussian profile \[
-            p(x;t) = \frac{1}{\sqrt{2 \pi D t}} \exp{\frac{-x^2}{4 D t} 
+        p(x;t) = \frac{1}{\sqrt{2 \pi D t}} \exp{\frac{-x^2}{4 D t}} 
         .\] With D given by,
         \[
             D = \frac{\langle x^2 \rangle}{2} = \frac{1}{2}
@@ -146,10 +146,49 @@
         The difference between directed and undirected graphs is in the symmetry of the adjacency matrix. We know from liner algebra that hermitian matrices (and thus, more weakly, symmetric matrices) have real eigenvalues. Thus, we would expect the eigenvalues of an undirected graph to generally be complex.
 \end{enumerate}
 
+\pagebreak
+
 \section{Clustering Coefficients}
 
 \begin{enumerate}[label={(4. \alph*)}]    
+     \item 
+         I generated a network of size 10 given by the adjacency matrix
+\begin{equation*}
+    A = 
+    \begin{pmatrix} 
+        0 & 1 & 1 & 0 & 1 & 0 & 0 & 0 & 0 & 0\\
+        1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 0 & 1\\
+        1 & 1 & 0 & 1 & 1 & 1 & 0 & 0 & 0 & 0\\
+        0 & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0\\
+        1 & 1 & 1 & 0 & 0 & 1 & 1 & 0 & 0 & 0\\
+        0 & 0 & 1 & 1 & 1 & 0 & 1 & 1 & 0 & 0\\
+        0 & 1 & 0 & 0 & 1 & 1 & 0 & 1 & 0 & 0\\
+        0 & 0 & 0 & 0 & 0 & 1 & 1 & 0 & 1 & 0\\
+        0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 1\\
+        0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0
+    \end{pmatrix} 
+\end{equation*}
     
+
+
+    This network can be seen in Fig. \ref{fig:small_clustering}, where the node labels are the local clustering coefficient. For this network, the global clustering coefficient is 0.473. 
+
+
+    \begin{figure}[h]
+        \centerline{\includegraphics[width=0.5\linewidth]{./small_clustering.png}}
+        \caption{Random network with varying local clustering coefficients}
+        \label{fig:small_clustering}
+    \end{figure}
+
+\end{enumerate}
+
+\pagebreak
+
+\section{Small World}
+
+\begin{enumerate}[label={(5. \alph*)}]
+    \item
+
 \end{enumerate}
 
 \bibliography{citations}
