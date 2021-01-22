@@ -362,6 +362,11 @@ INPUT ./small_world.png
 INPUT ./small_world.png
 INPUT ./small_world.png
 INPUT ./small_world.png
+INPUT ./undirected_centrality.png
+INPUT ./undirected_centrality.png
+INPUT ./undirected_centrality.png
+INPUT ./undirected_centrality.png
+INPUT ./undirected_centrality.png
 INPUT ./main.bbl
 INPUT main.bbl
 INPUT ./main.bbl

@@ -115,7 +115,7 @@
             \caption{random walk after 10000 iterations}
             \label{fig:rw10000}
         \end{figure}
-        \begin{figure}    
+        \begin{figure} 
             \includegraphics[width=\linewidth]{./random_walk15000.png}
             \caption{random walk after 15000 iterations}
             \label{fig:rw15000}
@@ -175,7 +175,7 @@
 
 
     \begin{figure}[h]
-        \centerline{\includegraphics[width=0.5\linewidth]{./small_clustering.png}}
+        \centerline{\includegraphics[width=0.8\linewidth]{./small_clustering.png}}
         \caption{Random network with varying local clustering coefficients}
         \label{fig:small_clustering}
     \end{figure}
@@ -192,7 +192,7 @@
         \[
             S_{max} = \frac{(N - k)(N - k - 1)}{2} - \frac{k(k+1)}{2}
         .\] 
-        which can be seen by calculating the number of zeros in the adjacency matrix. \\ Then, for $N = 20$ and $k=3$, I calculated diameters and clustering coefficient averaged over 10 runs. The data can be seen in Fig. \ref{fig:small_world}. The diameter plateaus at integer values, which is to be expected. Naively, I would predict the length of each plateau to be roughly $N$, but this is not the case here for , but this is not the case here for D=2. 
+        which can be seen by calculating the number of zeros in the adjacency matrix. \\ Then, for $N = 20$ and $k=3$, I calculated diameters and clustering coefficient averaged over 10 runs. The data can be seen in Fig. \ref{fig:small_world}. The diameter plateaus at integer values, which is to be expected. Naively, I would predict the length of each plateau to be roughly $N$, but this is not the case here for D=2. 
     
     \begin{figure}[h]
         \centerline{\includegraphics[width=1.3\linewidth]{./small_world.png}}
@@ -200,6 +200,56 @@
         \label{fig:small_world}
     \end{figure}
 \end{enumerate}
+
+\pagebreak
+
+\section{Centrality measures}
+
+\begin{enumerate}[label={(6. \alph*)}]
+    \item I generated undirected networks with $N=20$ with varying densities, $p$, defined as the ratio of off-diagonal 1s to zeroes of the adjacency matrix. For each such network, I calculated the distributions of centrality measures:
+        \begin{enumerate}
+            \item Degree centrality
+            \item Betweenness Centrality
+            \item Closeness Centrality
+            \item Katz Centrality\footnote{I used an alpha parameter of 0.01 to assure convergence}
+        \end{enumerate}
+        For each pair of centralities, I then calculated the Pearson correlation. The data is shown in Fig. \ref{fig:centr}. Correlations peak at $p=0$ and  $p=1$, as here every node will have the same value of centrality. Only at the beginning, with very low density of connections, are the centralities correlated. All of the centralities are highly uncorrelated with Katz centrality, for most densities.  
+     \begin{figure}[h]
+        \centerline{\includegraphics[width=0.9\linewidth]{./undirected_centrality.png}}
+        \caption{Centrality Correlations for $N=20$ graphs}
+        \label{fig:centr}
+    \end{figure}
+
+
+    \item Assuming the same notation as the paper, with $Au = \lambda u$ and $\nu^T A = \nu^T \lambda$, and differences  $A \mapsto A + \Delta A$, $\lambda \mapsto \lambda + \Delta \lambda$, $\nu^T \mapsto \nu^T + \Delta \nu^T$, $u \mapsto u + \Delta u$. Then, ignoring second order terms and assuming all differences are small,
+    \begin{equation*}
+        \begin{align} 
+            \nu^T(A + \Delta A)(u + \Delta u) &= \nu^T (\lambda + \Delta \lambda)(u + \Delta u) .\\
+            \nu^T(Au + A\Delta u + \Delta A u) &= \nu^T (\lambda u + \lambda \Delta u + \Delta \lambda u).\\
+            \nu^T\lambda\Delta u + \nu^T\Delta Au &= \nu^T \lambda \Delta u + \nu^T \Delta \lambda u.\\
+            \Delta \lambda &= \frac{\nu^T \Delta A u}{\nu^T u}. 
+        \end{align}
+    \end{equation*}
+
+    For the removal of a single edge $i \rightarrow j$, we need only remove the corresponding entry in the matrix. So, $(\Delta A)_{ij} = -A_{lm} \delta_{il}\delta_{jm}$ and thus, we get that
+    \[
+        \hat{I}_{ij} = -\frac{\Delta \lambda_{ij}}{\lambda} = \frac{A_{ij}\nu_{i}u_{j}}{\nu^T u}
+    .\] 
+
+    For the case of removal of a whole node $i$, we cannot assume that  $\Delta u$ is small, as the new  $u$ will have a 0 at  $i$ position. We can set  $\Delta u = \delta u - u_i\hat{e}_i$, where $\delta u_k$ are the small variations in the $k \neq i$ components. Removing a node removes the whole row and column from the matrix, and so the perturbation is given by $(\Delta A)_{kl} = -A_{kl}(\delta_{ki} + \delta_{li})$. Substituting $\Delta u$, the dynamical importance of a node is given by,
+    \[
+        \hat{I}_{i} = -\frac{\Delta \lambda_{i}}{\lambda} = -\frac{\nu^T\Delta A u - u_i \nu^T \Delta A \hat{e}_i}{\nu^Tu - \nu_i u_i}
+    .\] 
+    Now using the expression for $\Delta A$ we can see that  $\nu^T A u = -2 \lambda u_i \nu_i$ and  $u_i \nu^T \Delta A \hat{e}_i = \lambda u_i \nu_i$. Also, with a high enough network size, the denominator can be approximated as $\nu^T u - \nu_i u_i \approx \nu^T u$. Thus, we end up with
+    \[
+        \hat{I}_{i} = \frac{\nu_i u_i}{\nu^T u}
+    .\]
+
+
+
+\end{enumerate}
+
+\pagebreak
 
 \bibliography{citations}
 
