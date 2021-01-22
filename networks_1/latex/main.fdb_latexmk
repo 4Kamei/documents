@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1611257162 "main.aux" "main.bbl" "main" 1611313528
+["bibtex main"] 1611317334 "main.aux" "main.bbl" "main" 1611318268
   "/usr/share/texmf-dist/bibtex/bst/base/ieeetr.bst" 1607249373 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
   "citations.bib" 1611240586 560 61172365d5346b07745b113ac0614be3 ""
-  "main.aux" 1611257164 2546 ccc689223f620f3b052eecae9a3157ab "pdflatex"
+  "main.aux" 1611318220 2546 a777deb01b76a92b166966eb31c917c6 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1611257162 "main.tex" "main.pdf" "main" 1611313528
+["pdflatex"] 1611318268 "main.tex" "main.pdf" "main" 1611318268
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1607249373 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1607249373 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1607249373 3584 13049b61b922a28b158a38aeff75ee9b ""
@@ -91,9 +91,9 @@
   "bernoulli_var.png" 1611246213 92125 59b31034b01497926b7fc7e16dc2f18c ""
   "eig_dist_big.png" 1611256833 82339 2b2fb80ffab1ff2a4775f64616c23397 ""
   "eig_dist_small.png" 1611256824 87620 4046450d628d16525bdc84318660aa36 ""
-  "main.aux" 1611257164 2546 ccc689223f620f3b052eecae9a3157ab "pdflatex"
-  "main.bbl" 1611257162 367 2eccf40706d6efea2f799c5b7d47483d "bibtex main"
-  "main.tex" 1611257445 6633 f6ed2e8c88ace101994e262964783eed ""
+  "main.aux" 1611318220 2546 a777deb01b76a92b166966eb31c917c6 "pdflatex"
+  "main.bbl" 1611317335 367 2eccf40706d6efea2f799c5b7d47483d "bibtex main"
+  "main.tex" 1611318267 7648 1177e4b8083faeeab40e72a1a62ec49f ""
   "power_deg_dist_log.png" 1611243173 41755 2a39f280b16cce2307a462884f64ae08 ""
   "power_deg_dist_loglog.png" 1611243214 40921 aafb8ee009d23aae72ca56cb954a2eac ""
   "power_degree_dist.png" 1611239229 75142 0713defeee3c27ca7f55ecaffab6d37c ""

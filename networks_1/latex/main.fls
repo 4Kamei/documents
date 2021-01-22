@@ -321,12 +321,12 @@ INPUT ./power_vis.png
 INPUT ./power_vis.png
 INPUT ./power_vis.png
 INPUT ./power_vis.png
-INPUT ./bernoulli_var.png
-INPUT ./bernoulli_var.png
-INPUT ./bernoulli_var.png
-INPUT ./bernoulli_var.png
-INPUT ./bernoulli_var.png
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT ./bernoulli_var.png
+INPUT ./bernoulli_var.png
+INPUT ./bernoulli_var.png
+INPUT ./bernoulli_var.png
+INPUT ./bernoulli_var.png
 INPUT ./random_walk5000.png
 INPUT ./random_walk5000.png
 INPUT ./random_walk5000.png
