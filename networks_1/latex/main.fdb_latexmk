@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1611323062 "main.aux" "main.bbl" "main" 1611323167
+["bibtex main"] 1611328474 "main.aux" "main.bbl" "main" 1611329651
   "/usr/share/texmf-dist/bibtex/bst/base/ieeetr.bst" 1607249373 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
   "citations.bib" 1611240586 560 61172365d5346b07745b113ac0614be3 ""
-  "main.aux" 1611323167 2962 23ffdc94f20c1488a88f86df40738f9e "pdflatex"
+  "main.aux" 1611329650 3191 f71d23a35455f0f85230ed23613365ae "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1611323164 "main.tex" "main.pdf" "main" 1611323167
+["pdflatex"] 1611329647 "main.tex" "main.pdf" "main" 1611329651
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1607249373 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1607249373 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1607249373 3584 13049b61b922a28b158a38aeff75ee9b ""
@@ -92,9 +92,9 @@
   "bernoulli_var.png" 1611246213 92125 59b31034b01497926b7fc7e16dc2f18c ""
   "eig_dist_big.png" 1611256833 82339 2b2fb80ffab1ff2a4775f64616c23397 ""
   "eig_dist_small.png" 1611256824 87620 4046450d628d16525bdc84318660aa36 ""
-  "main.aux" 1611323167 2962 23ffdc94f20c1488a88f86df40738f9e "pdflatex"
-  "main.bbl" 1611323062 367 2eccf40706d6efea2f799c5b7d47483d "bibtex main"
-  "main.tex" 1611323162 8832 719cdad31c0b445626dd527599f623b4 ""
+  "main.aux" 1611329650 3191 f71d23a35455f0f85230ed23613365ae "pdflatex"
+  "main.bbl" 1611328474 367 2eccf40706d6efea2f799c5b7d47483d "bibtex main"
+  "main.tex" 1611329646 9749 351554ca5572c9c2d46c5a50f089202b ""
   "power_deg_dist_log.png" 1611243173 41755 2a39f280b16cce2307a462884f64ae08 ""
   "power_deg_dist_loglog.png" 1611243214 40921 aafb8ee009d23aae72ca56cb954a2eac ""
   "power_degree_dist.png" 1611239229 75142 0713defeee3c27ca7f55ecaffab6d37c ""
@@ -103,7 +103,8 @@
   "random_walk15000.png" 1611253234 110672 c3e12b2faedefe869d94955a78722331 ""
   "random_walk5000.png" 1611252701 119676 c32d05911cc6e87e2dbcc406df97d3f2 ""
   "small_clustering.png" 1611322647 79455 c20d0c914b13fa75fcc3ddc3a8e2a256 ""
+  "small_world.png" 1611329039 324071 297f7ccb9d8ded71823acb769bd16dcd ""
   (generated)
-  "main.pdf"
   "main.aux"
+  "main.pdf"
   "main.log"

@@ -357,6 +357,11 @@ INPUT ./small_clustering.png
 INPUT ./small_clustering.png
 INPUT ./small_clustering.png
 INPUT ./small_clustering.png
+INPUT ./small_world.png
+INPUT ./small_world.png
+INPUT ./small_world.png
+INPUT ./small_world.png
+INPUT ./small_world.png
 INPUT ./main.bbl
 INPUT main.bbl
 INPUT ./main.bbl
