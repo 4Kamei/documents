@@ -342,6 +342,16 @@ INPUT ./random_walk15000.png
 INPUT ./random_walk15000.png
 INPUT ./random_walk15000.png
 INPUT ./random_walk15000.png
+INPUT ./eig_dist_small.png
+INPUT ./eig_dist_small.png
+INPUT ./eig_dist_small.png
+INPUT ./eig_dist_small.png
+INPUT ./eig_dist_small.png
+INPUT ./eig_dist_big.png
+INPUT ./eig_dist_big.png
+INPUT ./eig_dist_big.png
+INPUT ./eig_dist_big.png
+INPUT ./eig_dist_big.png
 INPUT ./main.bbl
 INPUT main.bbl
 INPUT ./main.bbl

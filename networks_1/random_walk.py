@@ -2,7 +2,7 @@ import random as r
 from functools import reduce
 import numpy as np
 
-SAMPLE_COUNT = 10000
+SAMPLE_COUNT = 15000
 
 def iterate(sample):
     for i in range(len(sample)):
